@@ -15,14 +15,18 @@ function Home() {
       <div className="home__container">
         <img className="home__Image" src={amazonHomepageBackground} alt="" />
         <div className="home__row">
-        <Product title={
+          <Product
+            id='001'
+            title={
               "Noise Pulse Go Buzz Bluetooth Calling Smart Watch, 1.69 Clear Display, 550Nits,150+ Watch face, Comfort Strap, Heart Rate"
             }
             price={33.05}
             rating={5}
-            image={product_6}/>
-          
+            image={product_6}
+          />
+
           <Product
+            id='002'
             title={
               "Acer Nitro 5 Gaming Laptop Intel Core i5-11400H 11th Gen Processor"
             }
@@ -33,6 +37,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id='003'
             title={
               "iQOO Z6 Pro 5G by vivo (Legion Sky, 6GB RAM, 128GB Storage) | Snapdragon 778G 5G "
             }
@@ -41,6 +46,7 @@ function Home() {
             image={product_3}
           />
           <Product
+            id='004'
             title={
               "Probus Traveller Business Laptop Sleeve Sling Bag with Shoulder Strap for 13.3/15.6 inch Laptop "
             }
@@ -49,6 +55,7 @@ function Home() {
             image={product_4}
           />
           <Product
+            id='005'
             title={
               "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships"
             }
@@ -58,7 +65,8 @@ function Home() {
           />
         </div>
         <div className="home__row">
-        <Product
+          <Product
+            id='006'
             title={"Sparx Mens Sx0414g_spx Running Shoes"}
             price={22.22}
             rating={4}
